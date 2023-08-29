@@ -632,20 +632,8 @@ a {
         text-align: center;
       }
     }
-    .img {
-      width: 100%;
-      height: 85%;
-      @include centerFlex();
-      @media (max-width: 768px) {
-        @include centerFlex();
-        margin-bottom: 40px;
-      }
-      img {
-        width: 300px;
-        height: 300px;
-        object-fit: contain;
-        object-position: center;
-      }
+    img{
+      max-width: 100%;
     }
   }
   .contact-us {
